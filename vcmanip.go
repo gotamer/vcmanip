@@ -19,7 +19,7 @@ func main() {
 	split := flag.Bool("s", false, "Split a monolithic vCard.")
 	merge := flag.Bool("m", false, "Merge a directory of vCards.")
 	input := flag.String("i", "", "vCard file or directory.")
-	output := flag.String("o", "", "Output directory")
+	output := flag.String("o", "", "Output directory.")
 	flag.Parse()
 
 	if *input == "" {
