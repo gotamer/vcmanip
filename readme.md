@@ -6,7 +6,7 @@ his vCard will be "Íñigo Gámez.vcf"—instead of "igo_Gmez.vcf".
 
 ## Installation
 ````
-go get github.com/pi241a/vcmanip
+go get github.com/variadico/vcmanip
 ````
 
 ## Usage
