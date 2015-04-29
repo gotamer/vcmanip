@@ -11,8 +11,8 @@ import (
 )
 
 var (
-	cardExp  *regexp.Regexp = regexp.MustCompile("(?sU)BEGIN:VCARD.*END:VCARD")
-	nameProp *regexp.Regexp = regexp.MustCompile("FN:(.*)")
+	cardExp  = regexp.MustCompile("(?sU)BEGIN:VCARD.*END:VCARD")
+	nameProp = regexp.MustCompile("FN:(.*)")
 )
 
 func main() {
